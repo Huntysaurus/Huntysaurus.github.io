@@ -1,0 +1,35 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+#DOM-container {
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+
+#heading-info {
+    background-color: aqua;
+    text-align: center;
+}
+
+#div-1 {
+    background-color: blue;
+    height: 10%;
+    width: 50%;
+}
+
+#div-2 {
+    background-color: brown;
+    height: 10%;
+    width: 50%;
+}   
+
+#inner-div {
+    background-color: darkgreen;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
