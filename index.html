@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8" />
         <title>Jake's portfolio website</title>
         <link rel="stylesheet" href="index.css">
         <script type="text/javascript" src="./index.js"></script>
     </head>
     <body>
         <div id="DOM-container">
-            <h1>Jake's portfolio website</h1>
-                <div id="heading-info">
-                    <h2>welcome to my site!!!</h2>
-                    <p>this is where I will store all of my projects and you can get to know a little bit about me! Thanks for viewing!</p>
-                </div>
-                <div id="div-1">
-                    <p>this is the first paragraph</p>
-                </div>
-                <div id="div-2">
-                    this is the second paragraph
-                    <div id="inner-div">
-                        parangraph inside the paragraph
+            <div id="nav-bar">
+                <h2>nav bar stuff goes here</h2>
+            </div>
+                <div id="bio-holder">
+                    <div id="intro-name-holder">
+                        <h1 id="hi">
+                            Hi,
+                        </h1>
+                        <h1 id="name">
+                            I'm
+                            <span
+                                style="color: rgb(0, 255, 238);">
+                                ./Jake
+                            </span>
+                        </h1>
                     </div>
+                    <p>paragraph about self goes here</p>
+                </div>
+                <div id="portrait-holder">
+                    <img
+                        id="portrait"
+                        src="images/portrait.png"
+                        alt="Jake"
+                    />
+                </div>
+                <div id="info-below-holder">
+                    <p>div full of content</p>
                 </div>
         </div>
     </body>
