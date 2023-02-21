@@ -62,14 +62,16 @@ body {
     height: 100%;
     width: 50%;
     float: left;
-}   
+}  
 
-#inner-div {
+#bio-intro {
     margin-left: auto;
     margin-right: auto;
     background-color: darkgreen;
     height: 60%;
+    width: 90%;
     text-align: center;
+    font-size:xx-large
 }
 
 #info-below-holder {
