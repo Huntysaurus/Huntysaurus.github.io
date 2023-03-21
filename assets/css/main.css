@@ -110,13 +110,16 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		border-bottom: solid #fff700;
+		padding-left: .2em;
+		padding-right: .2em;
 		color: #49bf9d;
 		text-decoration: none;
+		font-display: none;
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			border-color: transparent;
 			color: #49bf9d !important;
 			text-decoration: none;
 		}
@@ -164,6 +167,8 @@ input, select, textarea {
 	h4 {
 		font-size: 1.1em;
 		line-height: 1.5em;
+		margin-bottom: 0;
+		margin-top: 1em;
 	}
 
 	h5 {
@@ -2033,7 +2038,11 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
-			color: cyan;
+			color: rgb(0, 0, 0);
+			background-color: #e5ff00;
+			width: 100%;
+			text-align: center;
+			border-radius: 20%;
 		}
 
 /* Image */
@@ -2143,8 +2152,9 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 50%;
+				border-radius: 25%;
 				width: 100%;
+				outline: solid .2em #00ffd5;
 			}
 
 /* List */
@@ -2243,15 +2253,16 @@ input, select, textarea {
 /* code icons */
 
 .code-icon {
-	width:9%;
+	width:11%;
 	padding: 1px;
 	cursor: pointer;
 	margin-left: 2%;
 	margin-right: 2%;
 	margin-top: 2%;
 	padding: 1%;
-	background-color: #000936;
+	background-color: rgb(0, 0, 0);
 	border-radius: 20%;
+	border: solid rgb(0, 255, 191);
 }
 
 /* Actions */
@@ -2589,6 +2600,25 @@ input, select, textarea {
 
 /* Header */
 
+	.name-heading {
+		color: rgb(149, 233, 233);
+		letter-spacing: 1.5em;
+		font-weight: 700;
+	}
+
+	.heading-greeting {
+		background-color: #000000;
+		text-align: center;
+	}
+
+	.tech-stack-header {
+		background-color: #000000;
+		border-radius: 1em;
+		font-size: 1.2em;
+		text-align: center;
+		outline: solid #00ffd5;
+	}
+
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2608,7 +2638,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/rocks.jpg");
+		background-image: url("images/overlay.png"), url("../../images/Botanical_g_tint.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2636,6 +2666,10 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+			background-color: #000000bf;
+			padding: .9em;
+			border-radius: 1.5em;
+			outline: solid #00ffd5;
 		}
 
 		#header strong, #header b {
@@ -2643,7 +2677,7 @@ input, select, textarea {
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #00ffd5;
 		}
 
 		#header h1 {
@@ -2657,6 +2691,8 @@ input, select, textarea {
 			margin: 0 0 1em 0;
 			width: 11.25em;
 		}
+
+
 
 /* Footer */
 
