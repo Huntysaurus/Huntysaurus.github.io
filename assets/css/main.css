@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background-color: #1f1f1f;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1846,7 +1846,8 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: cyan;
+			background-color: rgb(212, 255, 255);
 		}
 
 	select {
@@ -2607,16 +2608,16 @@ input, select, textarea {
 	}
 
 	.heading-greeting {
-		background-color: #000000;
+		/* background-color: #000000; */
 		text-align: center;
 	}
 
 	.tech-stack-header {
-		background-color: #000000;
-		border-radius: 1em;
+		/* background-color: #000000; */
+		/* border-radius: 1em; */
 		font-size: 1.2em;
 		text-align: center;
-		outline: solid #00ffd5;
+		/* outline: solid #00ffd5; */
 	}
 
 	#header {
@@ -2737,6 +2738,8 @@ input, select, textarea {
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
+		border-left: solid #00ffd5;
+		background-color: #1f1f1f;
 	}
 
 		#main > section {
@@ -3088,6 +3091,16 @@ input, select, textarea {
 /* Medium */
 
 	@media screen and (max-width: 980px) {
+
+		/* main */
+		#main {
+			margin-left: 35%;
+			max-width: 54em;
+			padding: 8em 4em 4em 4em;
+			width: calc(100% - 35%);
+			border-left: 0;
+			border-top: solid #00ffd5;
+		}
 
 		/* Basic */
 
