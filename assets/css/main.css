@@ -2156,6 +2156,7 @@ input, select, textarea {
 				border-radius: 25%;
 				width: 100%;
 				outline: solid .2em #00ffd5;
+				opacity: 90%;
 			}
 
 /* List */
